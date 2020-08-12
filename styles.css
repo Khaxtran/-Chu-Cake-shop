@@ -7,7 +7,7 @@ main {
     position: relative;
     top: 4.5rem;
     width: 100%;
-    height: 150rem;
+    height: 200rem;
 }
 /* header section */
 .navigator-mobile {
@@ -126,6 +126,55 @@ main {
 .content img {
     height: 25rem;
 }
+
+.intro-4 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+.intro-4 h2 {
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+.intro-4 p {
+    font-size: larger;
+    width: 70%;
+    line-height: 3rem;
+}
+
+
+
+.suggestion {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Serif', serif;
+    padding-top: 2rem;
+}
+.items {
+    display: inline-flex;
+    width: 80%;
+}
+.items img {
+    width: 15rem;
+}
+.details {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    background-color: thistle;
+}
+.details .title {
+    font-size: 1.5rem;
+}
+.details .info {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
 /* end of main section */
 footer {
     display: flex;
