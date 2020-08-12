@@ -47,8 +47,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./media/photos/background/background-2.jpg");
-    background-position: top;
+    background-image: url("./media/photos/background/background-4.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1px 2px 5px 1px;
@@ -61,25 +61,28 @@ main {
 }
 .intro-2 {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 20rem;
     background-color: rosybrown;
+    padding-left: 3rem;
+    
 }
 .align h1 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     font-family: 'IBM Plex Serif', serif;
     text-align: center;
     color: white;
     font-size: 3rem;
-    padding-top: 2rem;
-    padding-left: 3rem;
+   
 }
 .align p {
     display: flex;
     width: 50%;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     font-family: 'IBM Plex Serif', serif;
     text-align: center;
     color: white;
@@ -116,12 +119,18 @@ footer {
     justify-content: space-around;
     padding-top: 2rem;
 }
+.foot p {
+    color: rgb(121, 120, 120);
+}
 .foot h5 {
     font-size: 1.2rem;
 }
 .foot h4 {
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
+}
+.foot i {
+    color: white;
 }
 .copyright {
     color: rgb(194, 194, 194);
