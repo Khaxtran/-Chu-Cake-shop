@@ -44,6 +44,28 @@ main {
 
 
 /* main section */
+.social {
+    display: block;
+    float: left;
+    position: sticky;
+    top: 15rem;
+    z-index: 15;
+    color: white;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: rgb(132, 209, 209);
+    
+}
+.a {
+    border-bottom: white solid 0.5px ;
+}
+
 .intro {
     display: flex;
     justify-content: center;
