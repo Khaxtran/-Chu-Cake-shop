@@ -7,12 +7,10 @@ main {
     position: relative;
     top: 4.5rem;
     width: 100%;
-    height: 200rem;
+    height: 250rem;
 }
 /* header section */
-.navigator-mobile {
-    display: none;
-}
+
 .navigator {
     display: flex;
     position: fixed;
@@ -62,8 +60,14 @@ main {
     background-color: rgb(132, 209, 209);
     
 }
-.a {
+.border {
     border-bottom: white solid 0.5px ;
+}
+.social .link:hover {
+    background-color: rgb(194, 240, 240);
+    font-size: 1.7rem;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
 }
 
 .intro {
@@ -143,9 +147,9 @@ main {
     line-height: 3rem;
 }
 
+/*Suggestion 1*/
 
-
-.suggestion {
+.suggestion-1 {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -155,10 +159,11 @@ main {
 }
 .items {
     display: inline-flex;
-    width: 80%;
 }
 .items img {
     width: 15rem;
+    height: 15rem;
+    
 }
 .details {
     display: block;
@@ -174,6 +179,45 @@ main {
     font-size: 1.3rem;
     line-height: 2rem;
 }
+.a {
+    background-color: thistle;
+}
+.b {
+    background-color: rgb(182, 216, 166);
+}
+
+/* Suggestion 2*/
+.suggestion-2 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'IBM Plex Serif', serif;
+    
+}
+.card-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    
+}
+.card-container img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 200px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    
+}
+.cards p {
+    font-size: 1.2rem;
+}
+
 
 /* end of main section */
 footer {
