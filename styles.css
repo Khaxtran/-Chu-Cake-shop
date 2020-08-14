@@ -7,7 +7,7 @@ main {
     position: relative;
     top: 4.5rem;
     width: 100%;
-    height: 250rem;
+    height: 225rem;
 }
 /* header section */
 
@@ -218,6 +218,24 @@ main {
     font-size: 1.2rem;
 }
 
+/* Conclusion section */
+.conclusion {
+    width: 80%;
+    margin: 0 auto;
+}
+.outtro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: larger;
+}
+.outtro h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+}
+
 
 /* end of main section */
 footer {
@@ -227,6 +245,7 @@ footer {
     height: 20rem;
     color: white;
     font-family: 'IBM Plex Serif', serif;
+    font-w
 }
 .foot {
     font-family: 'Sniglet', cursive;
